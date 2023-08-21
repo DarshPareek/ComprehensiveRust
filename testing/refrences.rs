@@ -14,4 +14,10 @@ fn main() {
     let val: i32 = s[1];
     println!("s: {s:?}");
     println!("val: {val:?}");
+    // Strings vs str
+    let s1: &str = "World";
+    let mut s2: String = String::from("Hello ");
+    s2.push_str(s1);
+    let s3: &str = &s2[6..];
+    println!("s3 : {s3}");
 }
