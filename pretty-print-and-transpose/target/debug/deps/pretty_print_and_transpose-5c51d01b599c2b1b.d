@@ -1,0 +1,8 @@
+D:\Github\ComprehensiveRust\pretty-print-and-transpose\target\debug\deps\pretty_print_and_transpose-5c51d01b599c2b1b.rmeta: src\main.rs Cargo.toml
+
+D:\Github\ComprehensiveRust\pretty-print-and-transpose\target\debug\deps\pretty_print_and_transpose-5c51d01b599c2b1b.d: src\main.rs Cargo.toml
+
+src\main.rs:
+Cargo.toml:
+
+# env-dep:CLIPPY_ARGS=
