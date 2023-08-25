@@ -7,12 +7,12 @@ fn transpose(matrix: [[i32; 3]; 3]) -> [[i32; 3]; 3] {
         [0, 0, 0],
         [0, 0, 0],
     ];
-    for i in 0..3 {
-        for j in 0..3 {
+    for (i, row) in matrix.iter().enumerate() {
+        for (j, _) in row.iter().enumerate() {
             tra_matrix[i][j] = matrix[j][i];
         }
     }
-    return tra_matrix;
+    tra_matrix
 }
 fn pretty_print(matrix: &[[i32; 3]; 3]) {
     for i in matrix {
